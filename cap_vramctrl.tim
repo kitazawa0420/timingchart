@@ -205,6 +205,16 @@ Digital_Signal
      Rise_Time:         0.0
      Fall_Time:         0.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             88.001
+              Max:             88.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             96.001
+              Max:             96.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Signal
      Position:          9
