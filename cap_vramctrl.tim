@@ -45,6 +45,10 @@ Time_Warp
      StartTime:          376.0
      EndTime:            384.0
 Time_Warp_End
+Time_Warp
+     StartTime:          467.0
+     EndTime:            475.0
+Time_Warp_End
 Digital_Clock
      Position:          1
      Name:              ACLK
@@ -117,8 +121,8 @@ Digital_Bus
               State:            00000000
           Edge_End
           Edge
-              Min:             460.801
-              Max:             460.801
+              Min:             511.841
+              Max:             511.841
               State:            L
           Edge_End
 Digital_Bus_End
@@ -351,6 +355,26 @@ Digital_Bus
               Max:             320.001
               State:            0011223300112233
           Edge_End
+          Edge
+              Min:             408.001
+              Max:             408.001
+              State:            0018482800874938
+          Edge_End
+          Edge
+              Min:             416.001
+              Max:             416.001
+              State:            0018482800874738
+          Edge_End
+          Edge
+              Min:             424.001
+              Max:             424.001
+              State:            0018482800874737
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            0011223300112233
+          Edge_End
 Digital_Bus_End
 Digital_Signal
      Position:          7
@@ -377,6 +401,16 @@ Digital_Signal
           Edge
               Min:             432.001
               Max:             424.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             511.521
+              Max:             511.521
+              State:            H
+          Edge_End
+          Edge
+              Min:             528.161
+              Max:             528.161
               State:            L
           Edge_End
 Digital_Signal_End
@@ -417,6 +451,16 @@ Digital_Signal
               Max:             416.001
               State:            L
           Edge_End
+          Edge
+              Min:             503.841
+              Max:             503.841
+              State:            H
+          Edge_End
+          Edge
+              Min:             528.001
+              Max:             528.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Signal
      Position:          9
@@ -453,6 +497,16 @@ Digital_Signal
           Edge
               Min:             432.001
               Max:             416.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             472.001
+              Max:             472.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             527.841
+              Max:             480.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -680,7 +734,57 @@ Digital_Bus
           Edge
               Min:             384.001
               Max:             384.001
-              State:            7
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             392.321
+              Max:             398.081
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             408.321
+              Max:             408.321
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             415.521
+              Max:             415.521
+              State:            1FD
+          Edge_End
+          Edge
+              Min:             423.841
+              Max:             423.841
+              State:            1FC
+          Edge_End
+          Edge
+              Min:             431.841
+              Max:             431.841
+              State:            1FB
+          Edge_End
+          Edge
+              Min:             472.001
+              Max:             472.001
+              State:            001
+          Edge_End
+          Edge
+              Min:             487.681
+              Max:             487.681
+              State:            002
+          Edge_End
+          Edge
+              Min:             513.121
+              Max:             513.121
+              State:            001
+          Edge_End
+          Edge
+              Min:             527.681
+              Max:             527.681
+              State:            000
+          Edge_End
+          Edge
+              Min:             567.521
+              Max:             567.521
+              State:            1FB
           Edge_End
           Edge
               Min:             700.051
@@ -732,8 +836,8 @@ Digital_Bus
               State:            0
           Edge_End
           Edge
-              Min:             455.641
-              Max:             455.641
+              Min:             578.841
+              Max:             578.841
               State:            Z
           Edge_End
 Digital_Bus_End
@@ -776,9 +880,14 @@ Digital_Bus
               State:            00080080
           Edge_End
           Edge
-              Min:             464.321
-              Max:             464.321
-              State:            Z
+              Min:             467.041
+              Max:             467.041
+              State:            00080160
+          Edge_End
+          Edge
+              Min:             475.041
+              Max:             475.041
+              State:            00080080
           Edge_End
 Digital_Bus_End
 Digital_Bus
@@ -822,32 +931,7 @@ Digital_Bus
           Edge
               Min:             384.001
               Max:             384.001
-              State:            1FE
-          Edge_End
-          Edge
-              Min:             392.001
-              Max:             392.001
               State:            1FF
-          Edge_End
-          Edge
-              Min:             408.001
-              Max:             408.001
-              State:            1FE
-          Edge_End
-          Edge
-              Min:             416.001
-              Max:             416.001
-              State:            1FD
-          Edge_End
-          Edge
-              Min:             424.001
-              Max:             424.001
-              State:            1FC
-          Edge_End
-          Edge
-              Min:             432.001
-              Max:             432.001
-              State:            1FB
           Edge_End
           Edge
               Min:             474.881
@@ -929,8 +1013,33 @@ Digital_Bus
               State:            1
           Edge_End
           Edge
-              Min:             476.641
-              Max:             476.641
+              Min:             472.001
+              Max:             472.001
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             472.001
+              Max:             480.001
+              State:            3
+          Edge_End
+          Edge
+              Min:             475.201
+              Max:             475.201
+              State:            3
+          Edge_End
+          Edge
+              Min:             496.001
+              Max:             496.001
+              State:            4
+          Edge_End
+          Edge
+              Min:             528.481
+              Max:             528.481
+              State:            0
+          Edge_End
+          Edge
+              Min:             579.201
+              Max:             579.201
               State:            Z
           Edge_End
 Digital_Bus_End
@@ -1038,9 +1147,34 @@ Digital_Bus
               State:            1
           Edge_End
           Edge
-              Min:             478.401
-              Max:             478.401
-              State:            1FF
+              Min:             472.001
+              Max:             472.001
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             472.001
+              Max:             480.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             472.641
+              Max:             472.641
+              State:            3
+          Edge_End
+          Edge
+              Min:             488.321
+              Max:             488.321
+              State:            2
+          Edge_End
+          Edge
+              Min:             519.841
+              Max:             519.841
+              State:            0
+          Edge_End
+          Edge
+              Min:             580.481
+              Max:             580.481
+              State:            2
           Edge_End
 Digital_Bus_End
 Digital_Bus
@@ -1146,6 +1280,26 @@ Digital_Bus
               Max:             285.121
               State:            Z
           Edge_End
+          Edge
+              Min:             472.001
+              Max:             472.001
+              State:            025798
+          Edge_End
+          Edge
+              Min:             504.641
+              Max:             504.641
+              State:            025799
+          Edge_End
+          Edge
+              Min:             520.801
+              Max:             520.801
+              State:            025800
+          Edge_End
+          Edge
+              Min:             580.321
+              Max:             580.321
+              State:            025797
+          Edge_End
 Digital_Bus_End
 Digital_Bus
      Position:          21
@@ -1181,8 +1335,8 @@ Digital_Bus
               State:            025800
           Edge_End
           Edge
-              Min:             457.521
-              Max:             457.521
+              Min:             581.201
+              Max:             581.201
               State:            Z
           Edge_End
 Digital_Bus_End
@@ -1546,6 +1700,20 @@ StateBar
      Font_Size:         12
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
+     Edge_At:           110
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
      Edge_At:           108
      OffsetX:           0
      OffsetY:           0
@@ -1560,7 +1728,105 @@ StateBar
      Font_Size:         12
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
-     Edge_At:           110
+     Edge_At:           104
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           106
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           122
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           124
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           126
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           128
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           132
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           130
      OffsetX:           0
      OffsetY:           0
 StateBar_End
