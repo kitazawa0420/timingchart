@@ -102,23 +102,23 @@ Digital_Bus
               State:            00000000
           Edge_End
           Edge
-              Min:             232.941
-              Max:             16.001
-              State:            00000080
-          Edge_End
-          Edge
               Min:             284.321
               Max:             284.321
               State:            Z
           Edge_End
           Edge
-              Min:             294.561
-              Max:             294.561
+              Min:             286.401
+              Max:             286.401
               State:            00080000
           Edge_End
           Edge
-              Min:             421.921
-              Max:             421.921
+              Min:             293.601
+              Max:             293.601
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             460.801
+              Max:             460.801
               State:            L
           Edge_End
 Digital_Bus_End
@@ -169,6 +169,26 @@ Digital_Signal
               Max:             96.001
               State:            L
           Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             448.001
+              Max:             448.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             448.001
+              Max:             448.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             456.001
+              Max:             456.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Signal
      Position:          5
@@ -185,6 +205,16 @@ Digital_Signal
           Edge
               Min:             80.001
               Max:             80.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             448.001
+              Max:             448.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             456.001
+              Max:             456.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -339,6 +369,16 @@ Digital_Signal
               Max:             232.001
               State:            L
           Edge_End
+          Edge
+              Min:             424.001
+              Max:             416.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             424.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Signal
      Position:          8
@@ -365,6 +405,16 @@ Digital_Signal
           Edge
               Min:             320.001
               Max:             320.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             408.001
+              Max:             408.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             416.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -396,8 +446,13 @@ Digital_Signal
               State:            H
           Edge_End
           Edge
-              Min:             320.001
-              Max:             304.001
+              Min:             380.481
+              Max:             380.481
+              State:            H
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             416.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -426,6 +481,16 @@ Digital_Signal
           Edge
               Min:             320.001
               Max:             320.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             416.001
+              Max:             416.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             424.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -706,8 +771,13 @@ Digital_Bus
               State:            00080000
           Edge_End
           Edge
-              Min:             422.561
-              Max:             422.561
+              Min:             432.001
+              Max:             432.001
+              State:            00080080
+          Edge_End
+          Edge
+              Min:             464.321
+              Max:             464.321
               State:            Z
           Edge_End
 Digital_Bus_End
@@ -747,6 +817,41 @@ Digital_Bus
           Edge
               Min:             40.001
               Max:             40.001
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             384.001
+              Max:             384.001
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             392.001
+              Max:             392.001
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             408.001
+              Max:             408.001
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             416.001
+              Max:             416.001
+              State:            1FD
+          Edge_End
+          Edge
+              Min:             424.001
+              Max:             424.001
+              State:            1FC
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            1FB
+          Edge_End
+          Edge
+              Min:             474.881
+              Max:             474.881
               State:            1FF
           Edge_End
           Edge
@@ -808,6 +913,26 @@ Digital_Bus
               Max:             367.041
               State:            Z
           Edge_End
+          Edge
+              Min:             380.961
+              Max:             380.961
+              State:            3
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            2
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             476.641
+              Max:             476.641
+              State:            Z
+          Edge_End
 Digital_Bus_End
 Digital_Bus
      Position:          19
@@ -838,19 +963,14 @@ Digital_Bus
               State:            1
           Edge_End
           Edge
-              Min:             287.521
-              Max:             287.521
-              State:            0
-          Edge_End
-          Edge
-              Min:             290.081
-              Max:             290.081
-              State:            Z
-          Edge_End
-          Edge
               Min:             283.521
               Max:             248.001
-              State:            X
+              State:            1
+          Edge_End
+          Edge
+              Min:             283.841
+              Max:             283.841
+              State:            Z
           Edge_End
           Edge
               Min:             283.841
@@ -863,8 +983,18 @@ Digital_Bus
               State:            H
           Edge_End
           Edge
+              Min:             287.521
+              Max:             287.521
+              State:            0
+          Edge_End
+          Edge
               Min:             288.161
               Max:             288.161
+              State:            Z
+          Edge_End
+          Edge
+              Min:             290.081
+              Max:             290.081
               State:            Z
           Edge_End
           Edge
@@ -900,7 +1030,17 @@ Digital_Bus
           Edge
               Min:             392.001
               Max:             392.001
-              State:            X
+              State:            2
+          Edge_End
+          Edge
+              Min:             424.001
+              Max:             424.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             478.401
+              Max:             478.401
+              State:            1FF
           Edge_End
 Digital_Bus_End
 Digital_Bus
@@ -1041,8 +1181,8 @@ Digital_Bus
               State:            025800
           Edge_End
           Edge
-              Min:             405.521
-              Max:             405.521
+              Min:             457.521
+              Max:             457.521
               State:            Z
           Edge_End
 Digital_Bus_End
@@ -1351,6 +1491,76 @@ StateBar
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
      Edge_At:           80
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           100
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           98
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           102
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           108
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           110
      OffsetX:           0
      OffsetY:           0
 StateBar_End
