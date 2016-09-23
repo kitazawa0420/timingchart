@@ -1,0 +1,649 @@
+Timing Analyzer Settings 
+     Version:           0.9894
+     Time_Scale:        1.0E-9
+     Time_Per_Division: 16
+     Number_Divisions:  160
+     Start_Time:        0
+     End_Time:          1600
+Part_Constraint
+     Name:               thold
+     Min_Constraint:     4.0
+     Max_Constraint:     4.0
+     Description:        Example hold constraint
+Part_Constraint_End
+Part_Constraint
+     Name:               tsetup
+     Min_Constraint:     10.0
+     Max_Constraint:     10.0
+     Description:        Example setup constraint
+Part_Constraint_End
+Jitter_Margin
+     Name:               p1jitter
+     Plus_Margin:        1.0
+     Minus_Margin:       1.0
+     Description:        Example part jitter
+Jitter_Margin_End
+Jitter_Margin
+     Name:               p2jitter
+     Plus_Margin:        0.5
+     Minus_Margin:       0.5
+     Description:        Example part jitter
+Jitter_Margin_End
+Time_Warp
+     StartTime:          32.0
+     EndTime:            42.0
+Time_Warp_End
+Digital_Clock
+     Position:          1
+     Name:              ACLK
+     Frequency:         1.25E8
+     Duty_Cycle:        50
+     Start_Delay:       0.0
+     Start_State:       H
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+Digital_Clock_End
+Digital_Signal
+     Position:          2
+     Name:              ARST
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             8.0
+              Max:             8.0
+              State:            H
+          Edge_End
+          Edge
+              Min:             16.001
+              Max:             16.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Bus
+     Position:          3
+     Name:              AWADDR[31:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.811
+              Max:             16.811
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             34.091
+              Max:             34.091
+              State:            Z
+          Edge_End
+          Edge
+              Min:             34.531
+              Max:             34.531
+              State:            Z
+          Edge_End
+          Edge
+              Min:             41.521
+              Max:             41.521
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             80.941
+              Max:             16.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Signal
+     Position:          4
+     Name:              AWVALID
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.001
+              Max:             16.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             24.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             63.841
+              Max:             63.841
+              State:            H
+          Edge_End
+          Edge
+              Min:             64.001
+              Max:             64.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             88.001
+              Max:             88.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             96.001
+              Max:             96.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Signal
+     Position:          5
+     Name:              AWREADY
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             71.841
+              Max:             71.841
+              State:            H
+          Edge_End
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Bus
+     Position:          6
+     Name:              WDATA[63:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.001
+              Max:             16.001
+              State:            0000000000000000
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             42.081
+              State:            Z
+          Edge_End
+          Edge
+              Min:             41.121
+              Max:             41.121
+              State:            0000000000000000
+          Edge_End
+          Edge
+              Min:             64.001
+              Max:             64.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Signal
+     Position:          7
+     Name:              WLAST
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Signal
+     Position:          8
+     Name:              WVALID
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Signal
+     Position:          9
+     Name:              WREADY
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Bus
+     Position:          10
+     Name:              BID[1:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+Digital_Bus_End
+Digital_Signal
+     Position:          11
+     Name:              BVALID
+     Start_State:       L
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Signal
+     Position:          12
+     Name:              BREADY
+     Start_State:       L
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Signal
+     Position:          13
+     Name:              BUF_RREADY
+     Start_State:       L
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+Digital_Signal_End
+Digital_Bus
+     Position:          14
+     Name:              data_count[9:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.811
+              Max:             16.811
+              State:            000
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             24.001
+              State:            001
+          Edge_End
+          Edge
+              Min:             32.551
+              Max:             32.551
+              State:            002
+          Edge_End
+          Edge
+              Min:             38.521
+              Max:             32.0
+              State:            1FE
+          Edge_End
+          Edge
+              Min:             48.811
+              Max:             46.441
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             91.031
+              Max:             91.031
+              State:            Z
+          Edge_End
+          Edge
+              Min:             132.001
+              Max:             128.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             136.001
+              Max:             136.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             144.001
+              Max:             144.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             152.001
+              Max:             152.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             700.051
+              Max:             700.051
+              State:            000
+          Edge_End
+          Edge
+              Min:             732.001
+              Max:             732.001
+              State:            000
+          Edge_End
+          Edge
+              Min:             736.001
+              Max:             736.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          15
+     Name:              RESOL[1:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             0.341
+              Max:             0.341
+              State:            0
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             37.861
+              State:            Z
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             24.001
+              State:            002
+          Edge_End
+          Edge
+              Min:             32.0
+              Max:             32.0
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             91.321
+              Max:             91.321
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          16
+     Name:              CAPADDR[28:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             0.341
+              Max:             0.341
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             24.001
+              Max:             41.731
+              State:            Z
+          Edge_End
+          Edge
+              Min:             40.001
+              Max:             40.001
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             155.681
+              Max:             155.681
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          17
+     Name:              data_count_ph[8:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             0.341
+              Max:             0.341
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             32.551
+              Max:             32.551
+              State:            Z
+          Edge_End
+          Edge
+              Min:             32.911
+              Max:             32.911
+              State:            Z
+          Edge_End
+          Edge
+              Min:             33.631
+              Max:             33.631
+              State:            Z
+          Edge_End
+          Edge
+              Min:             37.871
+              Max:             37.871
+              State:            Z
+          Edge_End
+          Edge
+              Min:             40.001
+              Max:             40.001
+              State:            1FF
+          Edge_End
+          Edge
+              Min:             1510.571
+              Max:             1510.571
+              State:            Z
+          Edge_End
+          Edge
+              Min:             1598.141
+              Max:             16.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          18
+     Name:              state[2:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.91
+              Max:             16.91
+              State:            0
+          Edge_End
+          Edge
+              Min:             56.501
+              Max:             56.501
+              State:            1
+          Edge_End
+          Edge
+              Min:             79.721
+              Max:             79.721
+              State:            2
+          Edge_End
+          Edge
+              Min:             112.001
+              Max:             112.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          19
+     Name:              nextState[2:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             16.9
+              Max:             16.9
+              State:            0
+          Edge_End
+          Edge
+              Min:             48.841
+              Max:             48.841
+              State:            1
+          Edge_End
+          Edge
+              Min:             71.891
+              Max:             71.891
+              State:            2
+          Edge_End
+          Edge
+              Min:             96.001
+              Max:             96.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          20
+     Name:              WAXI_count[20:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             17.0
+              Max:             17.0
+              State:            000000
+          Edge_End
+          Edge
+              Min:             157.481
+              Max:             157.481
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          21
+     Name:              RESOL_count[20:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        ACLK
+          Edge
+              Min:             0.251
+              Max:             0.251
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             32.0
+              Max:             32.0
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             32.0
+              Max:             32.0
+              State:            00000000
+          Edge_End
+          Edge
+              Min:             33.631
+              Max:             33.631
+              State:            000000
+          Edge_End
+          Edge
+              Min:             34.811
+              Max:             13.661
+              State:            0000000
+          Edge_End
+          Edge
+              Min:             157.841
+              Max:             157.841
+              State:            Z
+          Edge_End
+Digital_Bus_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           12
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           14
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           4
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           16
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           20
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           18
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           22
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
