@@ -90,7 +90,7 @@ Digital_Bus
               State:            00000000
           Edge_End
           Edge
-              Min:             80.941
+              Min:             111.821
               Max:             16.001
               State:            Z
           Edge_End
@@ -211,8 +211,8 @@ Digital_Signal
               State:            H
           Edge_End
           Edge
-              Min:             96.001
-              Max:             96.001
+              Min:             147.361
+              Max:             104.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -223,6 +223,21 @@ Digital_Signal
      Rise_Time:         0.0
      Fall_Time:         0.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             96.001
+              Max:             96.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             112.001
+              Max:             112.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             148.321
+              Max:             120.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Bus
      Position:          10
@@ -253,9 +268,19 @@ Digital_Signal
      Position:          13
      Name:              BUF_RREADY
      Start_State:       L
-     Rise_Time:         1.0
-     Fall_Time:         1.0
+     Rise_Time:         0.0
+     Fall_Time:         0.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             104.001
+              Max:             104.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             149.281
+              Max:             149.281
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Bus
      Position:          14
@@ -654,6 +679,104 @@ StateBar
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
      Edge_At:           22
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           26
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           28
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           30
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           32
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           34
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           36
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     60
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           24
      OffsetX:           0
      OffsetY:           0
 StateBar_End
