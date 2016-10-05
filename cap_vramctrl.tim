@@ -38,10 +38,6 @@ Time_Warp
      EndTime:            295.0
 Time_Warp_End
 Time_Warp
-     StartTime:          360.0
-     EndTime:            368.0
-Time_Warp_End
-Time_Warp
      StartTime:          376.0
      EndTime:            384.0
 Time_Warp_End
@@ -144,7 +140,7 @@ Digital_Signal
               State:            L
           Edge_End
           Edge
-              Min:             80.001
+              Min:             72.001
               Max:             80.001
               State:            H
           Edge_End
@@ -169,12 +165,7 @@ Digital_Signal
               State:            H
           Edge_End
           Edge
-              Min:             448.001
-              Max:             448.001
-              State:            L
-          Edge_End
-          Edge
-              Min:             456.001
+              Min:             472.001
               Max:             456.001
               State:            L
           Edge_End
@@ -194,16 +185,6 @@ Digital_Signal
           Edge
               Min:             80.001
               Max:             80.001
-              State:            L
-          Edge_End
-          Edge
-              Min:             448.001
-              Max:             448.001
-              State:            H
-          Edge_End
-          Edge
-              Min:             456.001
-              Max:             456.001
               State:            L
           Edge_End
 Digital_Signal_End
@@ -722,19 +703,9 @@ Digital_Bus
               State:            000
           Edge_End
           Edge
-              Min:             336.001
-              Max:             336.001
+              Min:             355.841
+              Max:             355.841
               State:            001
-          Edge_End
-          Edge
-              Min:             360.001
-              Max:             360.001
-              State:            000
-          Edge_End
-          Edge
-              Min:             368.001
-              Max:             368.161
-              State:            002
           Edge_End
           Edge
               Min:             376.001
@@ -1003,8 +974,8 @@ Digital_Bus
               State:            3
           Edge_End
           Edge
-              Min:             367.041
-              Max:             367.041
+              Min:             381.601
+              Max:             381.601
               State:            Z
           Edge_End
           Edge
@@ -1122,8 +1093,8 @@ Digital_Bus
               State:            Z
           Edge_End
           Edge
-              Min:             295.361
-              Max:             295.361
+              Min:             293.921
+              Max:             293.921
               State:            2
           Edge_End
           Edge
@@ -1132,14 +1103,9 @@ Digital_Bus
               State:            3
           Edge_End
           Edge
-              Min:             360.001
-              Max:             360.001
+              Min:             379.681
+              Max:             379.681
               State:            X
-          Edge_End
-          Edge
-              Min:             368.001
-              Max:             368.001
-              State:            3
           Edge_End
           Edge
               Min:             376.001
@@ -1298,6 +1264,26 @@ Digital_Bus
           Edge
               Min:             285.121
               Max:             285.121
+              State:            Z
+          Edge_End
+          Edge
+              Min:             292.961
+              Max:             292.961
+              State:            X
+          Edge_End
+          Edge
+              Min:             379.041
+              Max:             379.041
+              State:            Z
+          Edge_End
+          Edge
+              Min:             384.001
+              Max:             384.001
+              State:            X
+          Edge_End
+          Edge
+              Min:             468.321
+              Max:             468.321
               State:            Z
           Edge_End
           Edge
