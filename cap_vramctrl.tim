@@ -144,21 +144,6 @@ Digital_Signal
               State:            L
           Edge_End
           Edge
-              Min:             63.841
-              Max:             63.841
-              State:            H
-          Edge_End
-          Edge
-              Min:             64.001
-              Max:             64.001
-              State:            L
-          Edge_End
-          Edge
-              Min:             80.001
-              Max:             80.001
-              State:            H
-          Edge_End
-          Edge
               Min:             80.001
               Max:             80.001
               State:            H
@@ -575,7 +560,7 @@ Digital_Signal
 Digital_Signal_End
 Digital_Bus
      Position:          11
-     Name:              BID[1:0]
+     Name:              BRESP[1:0]
      Start_State:       Z
      State_Format:      Hex
      Rise_Time:         1.0
@@ -1427,20 +1412,6 @@ StateBar
      Font_Size:         12
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
-     Edge_At:           16
-     OffsetX:           0
-     OffsetY:           0
-StateBar_End
-StateBar
-     State_Name:        NO LABEL
-     Line_Type:         Dashed
-     Edge_Position:     60
-     State_Color:       #000000
-     Font_Name:         Dialog
-     Font_Style:        0
-     Font_Size:         12
-     Signal_Type:       DigitalClock
-     Signal_Name:       ACLK
      Edge_At:           20
      OffsetX:           0
      OffsetY:           0
@@ -1862,6 +1833,20 @@ StateBar
      Signal_Type:       DigitalClock
      Signal_Name:       ACLK
      Edge_At:           130
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       ACLK
+     Edge_At:           16
      OffsetX:           0
      OffsetY:           0
 StateBar_End
