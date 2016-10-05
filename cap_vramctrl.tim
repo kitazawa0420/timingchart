@@ -542,22 +542,112 @@ Digital_Bus
      Rise_Time:         1.0
      Fall_Time:         1.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             224.001
+              Max:             224.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             232.001
+              Max:             232.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            Z
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             528.001
+              Max:             528.001
+              State:            Z
+          Edge_End
 Digital_Bus_End
 Digital_Signal
      Position:          12
      Name:              BVALID
      Start_State:       L
-     Rise_Time:         1.0
-     Fall_Time:         1.0
+     Rise_Time:         0.0
+     Fall_Time:         0.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             224.001
+              Max:             224.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             232.001
+              Max:             232.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             528.001
+              Max:             528.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Signal
      Position:          13
      Name:              BREADY
      Start_State:       L
-     Rise_Time:         1.0
-     Fall_Time:         1.0
+     Rise_Time:         0.0
+     Fall_Time:         0.0
      Sync_Clock:        ACLK
+          Edge
+              Min:             224.001
+              Max:             224.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             232.001
+              Max:             232.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             432.001
+              Max:             432.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             528.001
+              Max:             528.001
+              State:            L
+          Edge_End
 Digital_Signal_End
 Digital_Bus
      Position:          14
@@ -834,6 +924,11 @@ Digital_Bus
               Min:             40.001
               Max:             40.001
               State:            00000000
+          Edge_End
+          Edge
+              Min:             223.361
+              Max:             223.361
+              State:            00000080
           Edge_End
           Edge
               Min:             283.841
