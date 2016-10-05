@@ -322,11 +322,6 @@ Digital_Bus
               State:            0011223300112233
           Edge_End
           Edge
-              Min:             408.001
-              Max:             408.001
-              State:            0018482800874938
-          Edge_End
-          Edge
               Min:             416.001
               Max:             416.001
               State:            0018482800874738
@@ -519,7 +514,7 @@ Digital_Signal
               State:            L
           Edge_End
           Edge
-              Min:             416.001
+              Min:             408.001
               Max:             416.001
               State:            H
           Edge_End
@@ -529,12 +524,12 @@ Digital_Signal
               State:            L
           Edge_End
           Edge
-              Min:             512.001
+              Min:             504.001
               Max:             512.001
               State:            H
           Edge_End
           Edge
-              Min:             528.001
+              Min:             520.001
               Max:             520.001
               State:            L
           Edge_End
@@ -721,11 +716,6 @@ Digital_Bus
               Min:             392.321
               Max:             398.081
               State:            1FF
-          Edge_End
-          Edge
-              Min:             408.321
-              Max:             408.321
-              State:            1FE
           Edge_End
           Edge
               Min:             415.521
@@ -969,19 +959,19 @@ Digital_Bus
               State:            2
           Edge_End
           Edge
-              Min:             311.681
-              Max:             311.681
+              Min:             311.361
+              Max:             311.361
+              State:            3
+          Edge_End
+          Edge
+              Min:             380.961
+              Max:             380.961
               State:            3
           Edge_End
           Edge
               Min:             381.601
               Max:             381.601
               State:            Z
-          Edge_End
-          Edge
-              Min:             380.961
-              Max:             380.961
-              State:            3
           Edge_End
           Edge
               Min:             400.001
@@ -1016,11 +1006,6 @@ Digital_Bus
           Edge
               Min:             520.001
               Max:             520.001
-              State:            1
-          Edge_End
-          Edge
-              Min:             528.481
-              Max:             528.481
               State:            0
           Edge_End
           Edge
@@ -1098,18 +1083,18 @@ Digital_Bus
               State:            2
           Edge_End
           Edge
-              Min:             304.001
-              Max:             304.001
+              Min:             304.641
+              Max:             304.641
               State:            3
-          Edge_End
-          Edge
-              Min:             379.681
-              Max:             379.681
-              State:            X
           Edge_End
           Edge
               Min:             376.001
               Max:             376.001
+              State:            X
+          Edge_End
+          Edge
+              Min:             379.681
+              Max:             379.681
               State:            X
           Edge_End
           Edge
@@ -1148,13 +1133,8 @@ Digital_Bus
               State:            2
           Edge_End
           Edge
-              Min:             512.001
-              Max:             512.001
-              State:            1
-          Edge_End
-          Edge
-              Min:             519.841
-              Max:             519.841
+              Min:             512.321
+              Max:             512.321
               State:            0
           Edge_End
           Edge
@@ -1287,8 +1267,8 @@ Digital_Bus
               State:            025798
           Edge_End
           Edge
-              Min:             504.641
-              Max:             504.641
+              Min:             512.641
+              Max:             512.641
               State:            025799
           Edge_End
           Edge
