@@ -1,0 +1,802 @@
+Timing Analyzer Settings 
+     Version:           0.9894
+     Time_Scale:        1.0E-9
+     Time_Per_Division: 80
+     Number_Divisions:  160
+     Start_Time:        0
+     End_Time:          1600
+Part_Constraint
+     Name:               thold
+     Min_Constraint:     4.0
+     Max_Constraint:     4.0
+     Description:        Example hold constraint
+Part_Constraint_End
+Part_Constraint
+     Name:               tsetup
+     Min_Constraint:     10.0
+     Max_Constraint:     10.0
+     Description:        Example setup constraint
+Part_Constraint_End
+Jitter_Margin
+     Name:               p1jitter
+     Plus_Margin:        1.0
+     Minus_Margin:       1.0
+     Description:        Example part jitter
+Jitter_Margin_End
+Jitter_Margin
+     Name:               p2jitter
+     Plus_Margin:        0.5
+     Minus_Margin:       0.5
+     Description:        Example part jitter
+Jitter_Margin_End
+Time_Warp
+     StartTime:          140.0
+     EndTime:            160.0
+Time_Warp_End
+Digital_Clock
+     Position:          1
+     Name:              PCLK
+     Frequency:         2.5E7
+     Duty_Cycle:        50
+     Start_Delay:       0.0
+     Start_State:       H
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+Digital_Clock_End
+Digital_Signal
+     Position:          2
+     Name:              PRST
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+          Edge
+              Min:             40.001
+              Max:             40.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Signal
+     Position:          3
+     Name:              HREF
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+          Edge
+              Min:             220.801
+              Max:             220.801
+              State:            H
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             240.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Signal
+     Position:          4
+     Name:              VSYNC
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+Digital_Signal_End
+Digital_Signal
+     Position:          5
+     Name:              BUF_WREADY
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            L
+          Edge_End
+          Edge
+              Min:             560.001
+              Max:             560.001
+              State:            H
+          Edge_End
+          Edge
+              Min:             600.001
+              Max:             600.001
+              State:            L
+          Edge_End
+Digital_Signal_End
+Digital_Signal
+     Position:          6
+     Name:              CAPON
+     Start_State:       L
+     Rise_Time:         0.0
+     Fall_Time:         0.0
+Digital_Signal_End
+Digital_Bus
+     Position:          7
+     Name:              CAMDATA[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             220.001
+              Max:             220.001
+              State:            05
+          Edge_End
+          Edge
+              Min:             259.201
+              Max:             259.201
+              State:            06
+          Edge_End
+          Edge
+              Min:             299.201
+              Max:             299.201
+              State:            07
+          Edge_End
+          Edge
+              Min:             343.201
+              Max:             343.201
+              State:            08
+          Edge_End
+          Edge
+              Min:             383.201
+              Max:             390.401
+              State:            09
+          Edge_End
+          Edge
+              Min:             424.001
+              Max:             430.401
+              State:            0A
+          Edge_End
+          Edge
+              Min:             463.201
+              Max:             470.401
+              State:            0B
+          Edge_End
+          Edge
+              Min:             503.201
+              Max:             503.201
+              State:            0C
+          Edge_End
+          Edge
+              Min:             543.201
+              Max:             550.401
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          8
+     Name:              count_data[2:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             240.001
+              Max:             240.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             280.001
+              Max:             280.001
+              State:            2
+          Edge_End
+          Edge
+              Min:             320.001
+              Max:             320.001
+              State:            3
+          Edge_End
+          Edge
+              Min:             360.001
+              Max:             360.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             478.401
+              State:            2
+          Edge_End
+          Edge
+              Min:             480.001
+              Max:             480.001
+              State:            3
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             560.001
+              Max:             560.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          9
+     Name:              state[1:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             360.001
+              Max:             360.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             440.801
+              Max:             440.801
+              State:            Z
+          Edge_End
+          Edge
+              Min:             441.601
+              Max:             441.601
+              State:            2
+          Edge_End
+          Edge
+              Min:             480.801
+              Max:             480.801
+              State:            0
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             601.601
+              Max:             601.601
+              State:            2
+          Edge_End
+          Edge
+              Min:             640.001
+              Max:             640.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             680.001
+              Max:             680.001
+              State:            1
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          10
+     Name:              nextState[1:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             320.001
+              Max:             320.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             401.601
+              Max:             401.601
+              State:            keisankekka
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             480.001
+              Max:             480.001
+              State:            1
+          Edge_End
+          Edge
+              Min:             560.001
+              Max:             560.001
+              State:            2
+          Edge_End
+          Edge
+              Min:             600.001
+              Max:             600.001
+              State:            0
+          Edge_End
+          Edge
+              Min:             640.001
+              Max:             640.001
+              State:            1
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          11
+     Name:              CAP_U[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+          Edge
+              Min:             240.001
+              Max:             240.001
+              State:            05
+          Edge_End
+          Edge
+              Min:             399.201
+              Max:             399.201
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            09
+          Edge_End
+          Edge
+              Min:             564.801
+              Max:             564.801
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          12
+     Name:              CAP_V[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+          Edge
+              Min:             280.001
+              Max:             280.001
+              State:            06
+          Edge_End
+          Edge
+              Min:             438.401
+              Max:             438.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             440.001
+              Max:             440.001
+              State:            0A
+          Edge_End
+          Edge
+              Min:             630.401
+              Max:             630.401
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          13
+     Name:              CAP_Y1[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+          Edge
+              Min:             320.001
+              Max:             320.001
+              State:            07
+          Edge_End
+          Edge
+              Min:             478.401
+              Max:             478.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             480.001
+              Max:             480.001
+              State:            0B
+          Edge_End
+          Edge
+              Min:             678.401
+              Max:             678.401
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          14
+     Name:              CAP_Y0[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+          Edge
+              Min:             360.001
+              Max:             360.001
+              State:            08
+          Edge_End
+          Edge
+              Min:             519.201
+              Max:             519.201
+              State:            Z
+          Edge_End
+          Edge
+              Min:             520.001
+              Max:             520.001
+              State:            0C
+          Edge_End
+          Edge
+              Min:             697.601
+              Max:             697.601
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          15
+     Name:              FIFOIN[63:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            0000000000000000
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            000000000000000D
+          Edge_End
+          Edge
+              Min:             572.001
+              Max:             572.001
+              State:            0000000000000001
+          Edge_End
+          Edge
+              Min:             742.401
+              Max:             742.401
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          16
+     Name:              CAP_R0[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            01
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            08
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             732.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          17
+     Name:              CAP_G0[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             398.401
+              Max:             398.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            02
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            09
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             732.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          18
+     Name:              CAP_B0[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             398.401
+              Max:             398.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            03
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            0A
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             732.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          19
+     Name:              CAP_R1[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             398.401
+              Max:             152.801
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            04
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            0B
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             732.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          20
+     Name:              CAP_G1[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             398.401
+              Max:             398.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            05
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            0C
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             744.001
+              State:            Z
+          Edge_End
+Digital_Bus_End
+Digital_Bus
+     Position:          21
+     Name:              CAP_B1[7:0]
+     Start_State:       Z
+     State_Format:      Hex
+     Rise_Time:         1.0
+     Fall_Time:         1.0
+     Sync_Clock:        PCLK
+          Edge
+              Min:             80.001
+              Max:             80.001
+              State:            00
+          Edge_End
+          Edge
+              Min:             398.401
+              Max:             398.401
+              State:            Z
+          Edge_End
+          Edge
+              Min:             400.001
+              Max:             400.001
+              State:            06
+          Edge_End
+          Edge
+              Min:             571.201
+              Max:             571.201
+              State:            0D
+          Edge_End
+          Edge
+              Min:             744.001
+              Max:             723.201
+              State:            Z
+          Edge_End
+Digital_Bus_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           4
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           12
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           11
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           15
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           18
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           20
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           22
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           24
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
+StateBar
+     State_Name:        NO LABEL
+     Line_Type:         Dashed
+     Edge_Position:     50
+     State_Color:       #000000
+     Font_Name:         Dialog
+     Font_Style:        0
+     Font_Size:         12
+     Signal_Type:       DigitalClock
+     Signal_Name:       PCLK
+     Edge_At:           26
+     OffsetX:           0
+     OffsetY:           0
+StateBar_End
