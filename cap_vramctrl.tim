@@ -140,12 +140,12 @@ Digital_Signal
               State:            L
           Edge_End
           Edge
-              Min:             72.001
+              Min:             63.841
               Max:             80.001
               State:            H
           Edge_End
           Edge
-              Min:             88.001
+              Min:             80.001
               Max:             88.001
               State:            L
           Edge_End
